@@ -7,7 +7,7 @@ describe('Checking if',()=>{
         method: 'GET'
     }
 
-    it('Server returns a specific string',async ()=>{
+    it('Server returns a specific string',async () => {
         const response = await server.inject(options);
 
         expect(response.result).toEqual('Hello hapi');

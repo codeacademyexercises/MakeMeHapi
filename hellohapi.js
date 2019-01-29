@@ -1,6 +1,5 @@
 const Hapi = require('hapi');
 
-
 const server = Hapi.Server({
     host: 'localhost',
     port: Number(process.argv[2]) || 8080
@@ -17,7 +16,7 @@ const server = Hapi.Server({
 const init =async () =>{
     await server.start();
 }
-
+init();
 console.log(`Server running at: ${server.info.uri}`);
 
 process.on('SIGINT',()=>{
