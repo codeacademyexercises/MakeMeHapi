@@ -1,0 +1,30 @@
+{
+  "name": "makemehapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeacademyexercises/MakeMeHapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeacademyexercises/MakeMeHapi/issues"
+  },
+  "homepage": "https://github.com/codeacademyexercises/MakeMeHapi#readme",
+  "description": "",
+  "dependencies": {
+    "eslint": "^5.12.1",
+    "handlebars": "^4.0.12",
+    "hapi": "^17.8.1",
+    "hapi-auth-basic": "^5.0.0",
+    "inert": "^5.1.2",
+    "jest": "^23.6.0",
+    "joi": "^14.3.1",
+    "sequelize-cli": "^5.4.0",
+    "vision": "^5.4.4"
+  }
+}
